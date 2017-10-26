@@ -1,1 +1,2 @@
 gem 'redis', '~> 3.0'
+gem 'websocket-rails', github: 'moaa/websocket-rails', branch: 'sync_fixes'
