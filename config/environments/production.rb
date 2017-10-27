@@ -22,7 +22,7 @@ Rails.application.configure do
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
-	ENV["REDIS"] = "redis://h:p6877cf283b201aeb0131075dd91630f6310b0e509ba3b80b8c7a73315f46033b@ec2-34-199-160-190.compute-1.amazonaws.com:14249"
+	ENV["REDIS"] = "redis://h:p6877cf283b201aeb0131075dd91630f6310b0e509ba3b80b8c7a73315f46033b@ec2-34-199-160-190.compute-1.amazonaws.com:6379"
 	# config.session_store_servers = ENV["REDISCLOUD_URL"]
 
   # Compress JavaScripts and CSS.
