@@ -3,5 +3,6 @@
 
 require 'redis'
 
-uri = URI.parse(ENV["REDIS"])
+uri = URI.parse(ENV["REDIS_URL"])
 REDIS = Redis.new(host: uri.host, port: uri.port)
+# $redis = Redis.new(url: ENV["REDIS_URL"])
